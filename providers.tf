@@ -14,7 +14,7 @@ provider "aws" {
   region = var.aws_region
 
   # Authentification: [1] use AWS CLI profile or [2] env variable (AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY) or [3] enter hardcoded credentials below
-  profile = var.aws_profile
+  # profile = var.aws_profile
   # access_key = "your_aws_access_key"
   # secret_key = "your_aws_secret_access_key"
 
@@ -32,7 +32,7 @@ provider "aws" {
   region = "us-east-1"
 
   # Authentification: [1] use AWS CLI profile or [2] env variable (AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY) or [3] enter hardcoded credentials below
-  profile = var.aws_profile
+  # profile = var.aws_profile
   # access_key = "your_aws_access_key"
   # secret_key = "your_aws_secret_access_key"
 
